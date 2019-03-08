@@ -1,0 +1,218 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.6.0)
+  - AZDropdownMenu (1.1.3)
+  - Brightcove-Player-SDK-Player-UI/dynamic (1.0.4):
+    - Brightcove-Player-SDK/dynamic (~> 5.0.5)
+  - Brightcove-Player-SDK/dynamic (5.0.7)
+  - EHHorizontalSelectionView (1.3.0)
+  - Firebase/Core (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.5.0)
+  - Firebase/CoreOnly (5.16.0):
+    - FirebaseCore (= 5.2.0)
+  - Firebase/Crash (5.16.0):
+    - Firebase/Core
+    - FirebaseCrash (= 3.1.1)
+  - Firebase/Messaging (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.3.0)
+  - FirebaseAnalytics (5.5.0):
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.4)
+    - GoogleAppMeasurement (= 5.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.1.0)
+  - FirebaseCore (5.2.0):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseCrash (3.1.1):
+    - FirebaseAnalytics (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - Protobuf (~> 3.5)
+  - FirebaseInstanceID (3.4.0):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.3.0):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.4)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - FSCalendar (2.7.9)
+  - GoneVisible (1.2.0)
+  - GoogleAppMeasurement (5.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - GoogleToolboxForMac/Logger (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.0)":
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.7):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.7)
+  - GoogleUtilities/Logger (5.3.7):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.7):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.7):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.7)"
+  - GoogleUtilities/Reachability (5.3.7):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.7):
+    - GoogleUtilities/Logger
+  - GradientProgress (1.0)
+  - IQKeyboardManagerSwift (5.0.7)
+  - JWTDecode (2.1.1)
+  - KKActionSheet (0.2)
+  - MTLLinkLabel (0.1.6)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - Protobuf (3.6.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Sheeeeeeeeet (0.4.1)
+  - SKPhotoBrowser (5.0.3)
+  - SnapKit (4.0.1)
+  - SVProgressHUD (2.2.2)
+  - TCProgressBar (0.4)
+  - VGPlayer (0.2.0):
+    - SnapKit (~> 4.0.0)
+  - ZoomImageView (0.4.0)
+  - ZRScrollableTabBar (0.1.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Alamofire (~> 4.5)
+  - AZDropdownMenu
+  - Brightcove-Player-SDK-Player-UI/dynamic
+  - EHHorizontalSelectionView
+  - Firebase/Core
+  - Firebase/Crash
+  - Firebase/Messaging
+  - FSCalendar
+  - GoneVisible
+  - GradientProgress
+  - IQKeyboardManagerSwift
+  - JWTDecode (~> 2.1)
+  - KKActionSheet
+  - MTLLinkLabel (~> 0.1.6)
+  - SDWebImage (~> 3.8)
+  - Sheeeeeeeeet
+  - SKPhotoBrowser
+  - SVProgressHUD
+  - TCProgressBar
+  - VGPlayer (~> 0.2.0)
+  - ZoomImageView
+  - ZRScrollableTabBar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Alamofire
+    - AZDropdownMenu
+    - Brightcove-Player-SDK
+    - Brightcove-Player-SDK-Player-UI
+    - EHHorizontalSelectionView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseCrash
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FSCalendar
+    - GoneVisible
+    - GoogleAppMeasurement
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GradientProgress
+    - IQKeyboardManagerSwift
+    - JWTDecode
+    - KKActionSheet
+    - MTLLinkLabel
+    - nanopb
+    - Protobuf
+    - SDWebImage
+    - Sheeeeeeeeet
+    - SKPhotoBrowser
+    - SnapKit
+    - SVProgressHUD
+    - TCProgressBar
+    - VGPlayer
+    - ZoomImageView
+    - ZRScrollableTabBar
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AZDropdownMenu: 5aa9d598d0c8aa36ca51a7302e79b98d544d5554
+  Brightcove-Player-SDK: 3e77737f58220d1bee1fac28a00ba1c17ede5605
+  Brightcove-Player-SDK-Player-UI: e1dc3e653c5e6f0ef0f8063faf4fc245339c0c2c
+  EHHorizontalSelectionView: 75699e0023d0265b3a6fc3d993d05100a4bf657f
+  Firebase: 749a8ff4962f9d8c79dda1966de20f6f77583d67
+  FirebaseAnalytics: d35d47c03c50c73c14a7fd31463c5775843e78a9
+  FirebaseAnalyticsInterop: e5f21be9af6548372e2f0815834ff909bff395a2
+  FirebaseCore: ea2d1816723ef21492b8e9113303e1350db5e08c
+  FirebaseCrash: 011365f2c0dfac64315109103ed350bacfcdc03f
+  FirebaseInstanceID: 97ea7a5dca9afd72c79bfcdddb7a44aa1cbb42a1
+  FirebaseMessaging: acbd51fe1a172bf29abaaa6e93a60f98bbf8e4f9
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  GoneVisible: c552940cd9df7548427f6bffd000dcbcc6de187f
+  GoogleAppMeasurement: 621f3bc6211d5ba548debe01fafad30cf5ab6859
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
+  GradientProgress: ee9c47443c80059b0367467d267b2dd9572de5e2
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  JWTDecode: 83e8b381aafe27158d9f692cbdca2b12d61d460c
+  KKActionSheet: 42be427a3e6edadb1787da8bf70bfd86ef3d6a13
+  MTLLinkLabel: 229057423902c4ea731db7bc1d435d37d79d6d08
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Sheeeeeeeeet: 4c2db804a225261a16787f28ca2356317e8eccb6
+  SKPhotoBrowser: 6de77f7004442e79059f19d86e2e7e6a03b43a13
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  TCProgressBar: 14bf8cce9d9a4dae2d82fe88b8e9c45709ebe55d
+  VGPlayer: a1787135559aa3b9201ebdc733ee283315492289
+  ZoomImageView: 25559e92b53db499681706b61024bd4906e57abe
+  ZRScrollableTabBar: db9a4465c82978e22daaed77f8a79bcb7545f2e0
+
+PODFILE CHECKSUM: 71b41f5eaf857d3f3728d98b1d17bb1f4be1cdae
+
+COCOAPODS: 1.5.3

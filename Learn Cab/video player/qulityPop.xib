@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="qulityPop" id="iN0-l3-epB" customClass="qulityPop" customModule="Learn_Cab" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Qulity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnU-hU-Jlh">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hUd-go-1xe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="14b-2h-kNr" customClass="RoundView">
+                    <rect key="frame" x="0.0" y="29" width="280" height="38"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVj-Nv-Nje">
+                            <rect key="frame" x="0.0" y="9" width="280" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="NUj-8J-Ckl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="wVj-Nv-Nje" firstAttribute="top" secondItem="14b-2h-kNr" secondAttribute="top" constant="9" id="4vk-Ns-Tmt"/>
+                        <constraint firstItem="wVj-Nv-Nje" firstAttribute="leading" secondItem="14b-2h-kNr" secondAttribute="leading" id="5A4-nY-AQd"/>
+                        <constraint firstAttribute="trailing" secondItem="wVj-Nv-Nje" secondAttribute="trailing" id="JmX-bk-naz"/>
+                        <constraint firstAttribute="height" constant="38" id="aK7-mz-m4A"/>
+                        <constraint firstAttribute="bottom" secondItem="wVj-Nv-Nje" secondAttribute="bottom" constant="8" id="y3P-az-gM0"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="BorderColor">
+                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="BorderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="14b-2h-kNr" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="3Qk-Jj-VGp"/>
+                <constraint firstItem="UnU-hU-Jlh" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="77e-m6-UWt"/>
+                <constraint firstItem="14b-2h-kNr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Ia6-ba-qcq"/>
+                <constraint firstItem="14b-2h-kNr" firstAttribute="top" secondItem="UnU-hU-Jlh" secondAttribute="bottom" constant="8" id="RGz-XT-rdd"/>
+                <constraint firstItem="UnU-hU-Jlh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="TVG-dD-3CB"/>
+                <constraint firstItem="UnU-hU-Jlh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="unM-mp-ubI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>
