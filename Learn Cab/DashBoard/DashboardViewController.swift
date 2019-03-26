@@ -97,13 +97,13 @@ class DashboardViewController: UIViewController,ZRScrollableTabBarDelegate,EHHor
         item3.image = UIImage.init(named: "feedback")?.withRenderingMode(.alwaysOriginal)
         item3.selectedImage = UIImage.init(named: "feedbackColour")?.withRenderingMode(.alwaysOriginal)
         
-        let item4 = UITabBarItem.init(title:"Profile", image: UIImage.init(named:"Profile"), tag: 4)
-        item4.image = UIImage.init(named: "Profile")?.withRenderingMode(.alwaysOriginal)
-        item4.selectedImage = UIImage.init(named: "ProfileColour")?.withRenderingMode(.alwaysOriginal)
+        let item4 = UITabBarItem.init(title:"Q&A", image: UIImage.init(named:"qa"), tag: 4)
+        item4.image = UIImage.init(named: "qa")?.withRenderingMode(.alwaysOriginal)
+        item4.selectedImage = UIImage.init(named: "qacolor")?.withRenderingMode(.alwaysOriginal)
         
-        let item5 = UITabBarItem.init(title:"Q&A", image: UIImage.init(named:"qa"), tag: 5)
-        item5.image = UIImage.init(named: "qa")?.withRenderingMode(.alwaysOriginal)
-        item5.selectedImage = UIImage.init(named: "qacolor")?.withRenderingMode(.alwaysOriginal)
+        let item5 = UITabBarItem.init(title:"Profile", image: UIImage.init(named:"Profile"), tag: 5)
+        item5.image = UIImage.init(named: "Profile")?.withRenderingMode(.alwaysOriginal)
+        item5.selectedImage = UIImage.init(named: "ProfileColour")?.withRenderingMode(.alwaysOriginal)
         
         Tabbar = ZRScrollableTabBar.init(items: [item1,item2,item3,item4,item5])
         Tabbar.tintColor = myclass.colorWithHexString(hex: "#000000")
@@ -198,13 +198,15 @@ class DashboardViewController: UIViewController,ZRScrollableTabBarDelegate,EHHor
         }
         else if tag == 4
         {
-            let VC1 = self.storyboard!.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
+            let VC1 = self.storyboard!.instantiateViewController(withIdentifier: "QandAViewController") as! QandAViewController
             let navController = UINavigationController(rootViewController: VC1)
             self.present(navController, animated:false, completion: nil)
+            
+           
         }
         else if tag == 5
         {
-            let VC1 = self.storyboard!.instantiateViewController(withIdentifier: "QandAViewController") as! QandAViewController
+            let VC1 = self.storyboard!.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
             let navController = UINavigationController(rootViewController: VC1)
             self.present(navController, animated:false, completion: nil)
         }
@@ -384,7 +386,15 @@ class DashboardViewController: UIViewController,ZRScrollableTabBarDelegate,EHHor
         xAxis.valueFormatter = self
         //xAxis.setLabelCount(5, force: true)
        // xAxis.valueFormatter = IndexAxisValueFormatter(values: daysarr)
-       xAxis.labelCount = daysarr.count
+        print(self.daysarr.count)
+        if self.daysarr.count > 10
+        {
+            xAxis.labelCount = 5
+        }else
+        {
+            xAxis.labelCount = daysarr.count
+        }
+       
         
         
         let yAxis = chartView.leftAxis

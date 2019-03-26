@@ -75,18 +75,18 @@ class QandAViewController: UIViewController,UITableViewDataSource,UITableViewDel
         item3.image = UIImage.init(named: "feedback")?.withRenderingMode(.alwaysOriginal)
         item3.selectedImage = UIImage.init(named: "feedbackColour")?.withRenderingMode(.alwaysOriginal)
         
-        let item4 = UITabBarItem.init(title:"Profile", image: UIImage.init(named:"Profile"), tag: 4)
-        item4.image = UIImage.init(named: "Profile")?.withRenderingMode(.alwaysOriginal)
-        item4.selectedImage = UIImage.init(named: "ProfileColour")?.withRenderingMode(.alwaysOriginal)
+        let item4 = UITabBarItem.init(title:"Q&A", image: UIImage.init(named:"qa"), tag: 4)
+        item4.image = UIImage.init(named: "qa")?.withRenderingMode(.alwaysOriginal)
+        item4.selectedImage = UIImage.init(named: "qacolor")?.withRenderingMode(.alwaysOriginal)
         
-        let item5 = UITabBarItem.init(title:"Q&A", image: UIImage.init(named:"qa"), tag: 5)
-        item5.image = UIImage.init(named: "qa")?.withRenderingMode(.alwaysOriginal)
-        item5.selectedImage = UIImage.init(named: "qacolor")?.withRenderingMode(.alwaysOriginal)
+        let item5 = UITabBarItem.init(title:"Profile", image: UIImage.init(named:"Profile"), tag: 5)
+        item5.image = UIImage.init(named: "Profile")?.withRenderingMode(.alwaysOriginal)
+        item5.selectedImage = UIImage.init(named: "ProfileColour")?.withRenderingMode(.alwaysOriginal)
         
         Tabbar = ZRScrollableTabBar.init(items: [item1,item2,item3,item4,item5])
         Tabbar.tintColor = myclass.colorWithHexString(hex: "#000000")
         Tabbar.scrollableTabBarDelegate = self;
-        Tabbar.selectItem(withTag: 5)
+        Tabbar.selectItem(withTag: 4)
         Tabbar.frame = CGRect(x: 0, y: 0,width: UIScreen.main.bounds.size.width, height: Tabbarview.frame.size.height);
         Tabbarview.addSubview(Tabbar)
         
@@ -122,13 +122,13 @@ class QandAViewController: UIViewController,UITableViewDataSource,UITableViewDel
         }
         else if tag == 4
         {
-            let VC1 = self.storyboard!.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
-            let navController = UINavigationController(rootViewController: VC1)
-            self.present(navController, animated:false, completion: nil)
+            
         }
         else if tag == 5
         {
-            
+            let VC1 = self.storyboard!.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
+            let navController = UINavigationController(rootViewController: VC1)
+            self.present(navController, animated:false, completion: nil)
         }
         
     }

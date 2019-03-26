@@ -3687,15 +3687,15 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="QATableViewCell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="QATableViewCell" rowHeight="150" id="gr7-At-jaP" customClass="QATableViewCell" customModule="Learn_Cab" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="320" height="150"/>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="QATableViewCell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="QATableViewCell" rowHeight="170" id="gr7-At-jaP" customClass="QATableViewCell" customModule="Learn_Cab" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="320" height="170"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gr7-At-jaP" id="5Hi-3b-dqy">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2F-8T-KIM" customClass="CardView" customModule="Learn_Cab" customModuleProvider="target">
-                                                            <rect key="frame" x="10" y="10" width="300" height="130.5"/>
+                                                            <rect key="frame" x="10" y="10" width="300" height="150.5"/>
                                                             <subviews>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PY5-aT-dQ3" customClass="RoundView">
                                                                     <rect key="frame" x="10" y="10" width="40" height="40"/>
@@ -3743,7 +3743,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGy-zW-1FW">
-                                                                    <rect key="frame" x="10" y="60" width="40" height="21"/>
+                                                                    <rect key="frame" x="10" y="65" width="40" height="21"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="21" id="A0R-0e-fLJ"/>
                                                                         <constraint firstAttribute="width" constant="40" id="jDJ-hC-iM5"/>
@@ -3753,7 +3753,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Its fundamentals includes accounting basics, mercantile law, economics and quantitative aptitude (maths + stats)." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdg-an-eOY">
-                                                                    <rect key="frame" x="58" y="60" width="232" height="23.5"/>
+                                                                    <rect key="frame" x="58" y="60" width="232" height="43.5"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="bbQ-lt-QWU"/>
                                                                     </constraints>
@@ -3762,7 +3762,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB4-p5-EuU" customClass="RoundButton">
-                                                                    <rect key="frame" x="200" y="92.5" width="90" height="30"/>
+                                                                    <rect key="frame" x="200" y="112.5" width="90" height="30"/>
                                                                     <color key="backgroundColor" red="0.070588235289999995" green="0.38431372549999998" blue="0.59215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="90" id="Zkx-fO-Yll"/>
@@ -3783,7 +3783,7 @@
                                                                     </userDefinedRuntimeAttributes>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHE-Gc-dMN" customClass="RoundButton">
-                                                                    <rect key="frame" x="95" y="92.5" width="90" height="30"/>
+                                                                    <rect key="frame" x="95" y="112.5" width="90" height="30"/>
                                                                     <color key="backgroundColor" white="0.76337348090277779" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="bVa-tR-IKk"/>
@@ -3813,7 +3813,7 @@
                                                                 <constraint firstAttribute="trailing" secondItem="fB4-p5-EuU" secondAttribute="trailing" constant="10" id="KYg-Wf-FnB"/>
                                                                 <constraint firstAttribute="bottom" secondItem="kHE-Gc-dMN" secondAttribute="bottom" constant="8" id="LuQ-Et-yip"/>
                                                                 <constraint firstItem="BUn-pF-4Tl" firstAttribute="leading" secondItem="PY5-aT-dQ3" secondAttribute="trailing" constant="8" id="QuQ-T7-Kqh"/>
-                                                                <constraint firstItem="jGy-zW-1FW" firstAttribute="top" secondItem="PY5-aT-dQ3" secondAttribute="bottom" constant="10" id="VAr-ZA-SIS"/>
+                                                                <constraint firstItem="jGy-zW-1FW" firstAttribute="top" secondItem="PY5-aT-dQ3" secondAttribute="bottom" constant="15" id="VAr-ZA-SIS"/>
                                                                 <constraint firstItem="PY5-aT-dQ3" firstAttribute="leading" secondItem="e2F-8T-KIM" secondAttribute="leading" constant="10" id="bKz-cp-ql1"/>
                                                                 <constraint firstItem="jGy-zW-1FW" firstAttribute="leading" secondItem="e2F-8T-KIM" secondAttribute="leading" constant="10" id="hbe-gd-7Ch"/>
                                                                 <constraint firstItem="BUn-pF-4Tl" firstAttribute="top" secondItem="e2F-8T-KIM" secondAttribute="top" constant="20" id="iFh-px-jrp"/>
@@ -5281,7 +5281,7 @@
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eL7-Cs-yIb" customClass="RoundImageView">
                                         <rect key="frame" x="20" y="3" width="44" height="44"/>
-                                        <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="YWj-pc-VjV"/>
                                             <constraint firstAttribute="width" constant="44" id="pxd-D6-ru6"/>
